@@ -1,0 +1,89 @@
+/*comanetários*/
+
+/* TAGs */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+body{
+    background-color:#000000;
+}
+
+
+header{
+    background-color:#FFFF;
+    height: 80px;
+    padding: 20px;
+}
+
+footer{
+    clear: both;
+    background-color:#FFFF;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+h1{
+    color: #FF7F50;
+    text-shadow: 1px 1px 1px #111111;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+img{
+    min-height: 30px;
+    width: 20%;
+}
+
+/*ID'S*/
+#div_principal{
+    background-image: url('cidade.jpg');
+    clear: both;
+    background-size:100%;
+    min-height: 650px;
+    padding: 100px 0 0 0 ;
+}
+
+#logo{
+    float:left;
+}
+
+#menu{
+    margin-top: 15px;
+    float:right;
+}
+
+#menu a{
+    padding: 24px 20PX;
+    text-decoration: none;
+    color:#111;
+    text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+    background-color: #111111;
+    color:#FFFF;
+}
+
+/*class*/
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+}
